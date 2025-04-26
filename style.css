@@ -32,11 +32,7 @@ div ul {
     margin-left: 50px;
     color: #444;
 }
-div ol {
-    list-style-type: square;
-    margin-left: 50px;
-    color: #444;
-}
+
 section p {
     font-style: italic;
     color: #333;
@@ -105,6 +101,7 @@ img {
 
 .Datos,
 .contacto,
+.paginas,
 .formacion{
     background-color: white;
     margin: 15px auto;
