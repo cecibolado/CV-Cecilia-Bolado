@@ -27,6 +27,50 @@ h3 {
     margin-top: 20px;
     color: #6a0572;
 }
+div ul {
+    list-style-type: square;
+    margin-left: 50px;
+    color: #444;
+}
+div ol {
+    list-style-type: square;
+    margin-left: 50px;
+    color: #444;
+}
+section p {
+    font-style: italic;
+    color: #333;
+    text-align: center;
+}
+
+article h2 {
+    text-transform: uppercase;
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+h1, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7d0653;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+table th {
+    background-color: #f3b9c1;
+    color: #222;
+}
 
 span {
     text-transform: uppercase;
@@ -61,11 +105,7 @@ img {
 
 .Datos,
 .contacto,
-.idiomas,
-.formacion,
-.Sobre-mi,
-.familia,
-.video {
+.formacion{
     background-color: white;
     margin: 15px auto;
     max-width: 800px;
@@ -96,21 +136,6 @@ hr {
     max-width: 600px;
 }
 
-.Sobre-mi img,
-.familia img {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 15px;
-    border-radius: 12px;
-}
-
-.video iframe {
-    width: 100%;
-    max-width: 560px;
-    height: 315px;
-    border-radius: 10px;
-    margin-top: 15px;
-}
 
 .footer {
     background-color: #e2b674;
